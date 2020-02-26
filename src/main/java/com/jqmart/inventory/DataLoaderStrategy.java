@@ -9,4 +9,6 @@ import java.util.Map;
  */
 public interface DataLoaderStrategy {
 	Map<String, InventoryItem> populateInventory();
+
+	Map<String, InventoryItem> populateInventory(String filePathAndName);
 }

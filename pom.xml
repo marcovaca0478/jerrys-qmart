@@ -12,7 +12,6 @@
        
     </properties>
 
-
     <build>
         <plugins>
             <!-- Makes the JAR executable, by configuring the plugin to use the included manifest file -->

@@ -19,6 +19,7 @@ public class InventoryItem {
 	}
 
 	// Gets the inner Product
+	// TODO: Confirm if used
 	public Product getProduct() {
 		return product;
 	}
@@ -33,9 +34,19 @@ public class InventoryItem {
 		return quantity;
 	}
 
-	// Used to set the new quantity
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
+	/*
+	 * // Used to set the new quantity public void setQuantity(int quantity) {
+	 * this.quantity = quantity; }
+	 */
+
+	// Decrease stock
+	public void decreaseQuantity(int quantityToDecrease) {
+		this.quantity = this.quantity - quantityToDecrease;
+	}
+
+	// Increase stock
+	public void increaseQuantity(int quantityToIncrease) {
+		this.quantity = this.quantity + quantityToIncrease;
 	}
 
 	// --- INNER PRODUCT METHODS
@@ -64,5 +75,4 @@ public class InventoryItem {
 	public boolean isTaxable() {
 		return this.product.isTaxable();
 	}
-
 }

@@ -9,6 +9,11 @@ import java.util.Map;
 
 import com.jqmart.product.Product;
 
+/**
+ * Data loader via File.
+ * 
+ * @author Marco Vaca
+ */
 public class FileDataLoader implements DataLoaderStrategy {
 
 	private static String PATH_TO_CSV_FILE = "D:\\users\\Marco\\eclipse-workspace\\jqmart-mivs\\src\\main\\resources\\Inventory.csv";

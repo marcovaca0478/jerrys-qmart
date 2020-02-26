@@ -9,6 +9,10 @@ import java.util.Map;
  */
 public class MockEmptyDataLoader implements DataLoaderStrategy {
 
+	public Map<String, InventoryItem> populateInventory(String notUsed) {
+		return populateInventory();
+	}
+
 	public Map<String, InventoryItem> populateInventory() {
 
 		// An empty map

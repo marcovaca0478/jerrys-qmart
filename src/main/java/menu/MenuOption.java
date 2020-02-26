@@ -1,5 +1,11 @@
 package menu;
 
+/**
+ * A Menu Option.
+ * 
+ * @author Marco Vaca
+ *
+ */
 public class MenuOption {
 
 	private String menuOptionId;
@@ -28,7 +34,6 @@ public class MenuOption {
 	}
 
 	public String getFullOption() {
-		return this.getMenuOptionId() + " " + this.getMenuOptionText();
+		return this.getMenuOptionId() + ") " + this.getMenuOptionText();
 	}
-
 }

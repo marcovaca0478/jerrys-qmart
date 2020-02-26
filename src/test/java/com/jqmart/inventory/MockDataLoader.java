@@ -12,6 +12,10 @@ import com.jqmart.product.Product;
  */
 public class MockDataLoader implements DataLoaderStrategy {
 
+	public Map<String, InventoryItem> populateInventory(String notUsed) {
+		return populateInventory();
+	}
+	
 	public Map<String, InventoryItem> populateInventory() {
 
 		Map<String, InventoryItem> m = new HashMap<String, InventoryItem>();
