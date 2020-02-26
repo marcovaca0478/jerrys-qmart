@@ -11,13 +11,12 @@ import com.jqmart.inventory.DataLoaderStrategy;
 import com.jqmart.inventory.FileDataLoader;
 import com.jqmart.inventory.Inventory;
 import com.jqmart.inventory.InventoryItem;
+import com.jqmart.menu.Menu;
+import com.jqmart.menu.MenuOption;
 import com.jqmart.product.Product;
 import com.jqmart.transaction.Transaction;
 import com.jqmart.util.TxtFileWriter;
 import com.jqmart.util.Utils;
-
-import menu.Menu;
-import menu.MenuOption;
 
 public class MainApp {
 
